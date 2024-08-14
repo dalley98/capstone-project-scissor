@@ -46,7 +46,7 @@ const ShortenUrlModal: React.FC<IShortenUrlModalProps> = ({
       /[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)/gi;
     const regex = new RegExp(expression);
 
-    if (tName.length >= 3 || tName.length <= 15) {
+    if (tName.length < 3 || tName.length > 15) {
       errors.name = "The name should be min 3 and max 15 char long";
     }
 
