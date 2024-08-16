@@ -2,17 +2,6 @@ import { initializeApp } from "firebase/app";
 import { getAuth, connectAuthEmulator,} from "firebase/auth";
 import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 
-
-
-// const firebaseConfig = {
-//   apiKey: "AIzaSyC1WHW8WBi9IwQs8hleXgBEHrXZxuHFySk",
-//   authDomain: "scisssor.firebaseapp.com",
-//   projectId: "scisssor",
-//   storageBucket: "scisssor.appspot.com",
-//   messagingSenderId: "324099139772",
-//   appId: "1:324099139772:web:82bad532f52520c40108b9",
-// };
-
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
