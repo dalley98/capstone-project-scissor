@@ -7,5 +7,19 @@ Brief is the new black, and this is what inspires the team at Scissor. In todayâ
 - QR Code Generation: Scissor also allows users to generate QR codes for the shortened URLs. Users can download and use the QR code image in their promotional materials or/or on their website. This feature will be implemented using a third-party QR code generator API, which can be integrated into the Scissor platform.
 - Analytics: Scissor provides basic analytics that allows users to track the performance of their shortened URLs. Users can see how many clicks their shortened URL has received and where the clicks are coming from. This feature will be implemented using Firebase's built-in analytics feature.
 
+## Built With
+- React - JS Library(Frontend)
+- Firebase(Backend)
+- Material-UI - React UI framework
+
+## Author 
+Name: Oreoluwa Dalley
+
+Email: oredalley@gmail.com
+
+Livesite URL - https://scisssor.web.app
+
+  
+
 
 
